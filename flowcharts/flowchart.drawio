@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="786" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="y3F3aFtuWSbT8usEYgJs-1" value="⭕ Start&#xa;        |&#xa;        v&#xa; +-----------------+&#xa; | User Logs In    |&#xa; +-----------------+&#xa;        |&#xa;        v&#xa; +-----------------------+&#xa; | Search for Property   |&#xa; +-----------------------+&#xa;        |&#xa;        v&#xa; +--------------------------+&#xa; | Display Available Props  |&#xa; +--------------------------+&#xa;        |&#xa;        v&#xa; +-------------------------+&#xa; | Select Property &amp; Dates |&#xa; +-------------------------+&#xa;        |&#xa;        v&#xa;  +-----------------------+&#xa;  | Check Availability?   |&#xa;  +----------+------------+&#xa;             |Yes&#xa;             v&#xa;     +------------------+&#xa;     | Confirm Booking  |&#xa;     +------------------+&#xa;             |&#xa;             v&#xa;     +------------------+&#xa;     | Calculate Price  |&#xa;     +------------------+&#xa;             |&#xa;             v&#xa;     +------------------+&#xa;     | Process Payment  |&#xa;     +---------+--------+&#xa;               |&#xa;       +-------+------+&#xa;       | Payment OK?  |&#xa;       +---+------+---+&#xa;           |No   |Yes&#xa;           |     v&#xa;           | +-------------------+&#xa;           | | Create Booking    |&#xa;           | +-------------------+&#xa;           |         |&#xa;           |         v&#xa;           | +--------------------+&#xa;           | | Send Confirmation  |&#xa;           | +--------------------+&#xa;           |         |&#xa;           |         v&#xa;           |      ⭕ End&#xa;           v&#xa;      ⭕ End (Payment Failed)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="90" width="170" height="890" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
